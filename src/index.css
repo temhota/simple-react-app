@@ -1,0 +1,26 @@
+body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f8f9fa;
+}
+p {
+  text-align: justify;
+}
+.card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.comments {
+  padding-top: 1rem;
+  font-size: .8rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+.comments h5 {
+  font-size: 1rem;
+}
+.alert-secondary {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+}
