@@ -13,7 +13,7 @@ export default class Posts extends Component {
         const posts = res.data.slice(0, 10);
         this.setState({ posts });
       })
-  }
+    }
 
   render() {
     return (
