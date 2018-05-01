@@ -24,3 +24,18 @@ h4 {
   background-color: rgba(0, 0, 0, 0.05);
   border: none;
 }
+
+.comments .alert:nth-of-type(n+4) {
+    display: block;
+
+    -webkit-animation: slide-down .3s linear;
+    -moz-animation: slide-down .3s linear;
+}
+
+@-webkit-keyframes slide-down {
+      0% { opacity: 0; -webkit-transform: translateY(-50px); }
+    100% { opacity: 1; -webkit-transform: translateY(0);}
+}
+@-moz-keyframes slide-down {
+      0% { opacity: 0; -moz-transform: translateY(-50px); }
+    }
